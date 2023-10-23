@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/awan"
+    tools:context=".myprofile">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:background="@drawable/ssoft">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="410dp"
+                    android:layout_height="140dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/me"></de.hdodenhof.circleimageview.CircleImageView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardCornerRadius="20dp">
+        <TextView
+            android:gravity="center"
+            android:layout_width="187dp"
+            android:layout_height="50dp"
+            android:text="Key"
+            android:textColor="#118DCC"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/kjkjkj"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Kesya Nayla Kusuma Putri"
+            android:textColor="#118DCC"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="D4SM45-01"
+            android:textColor="#118DCC"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="7708210057"
+            android:textColor="#118DCC"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:background="@drawable/saldan"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp">
+            <TextView
+                android:background="@drawable/saldan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="#0E5173"
+                android:text="Telkom University"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textAlignment="center">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/saldan"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp">
+            <TextView
+                android:background="@drawable/saldan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="#0E5173"
+                android:text="Kesyannn@gmail.com"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textAlignment="center">
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Saya Tertarik Dengan:"
+            android:textColor="#0D2C3C"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+    </LinearLayout>
+
+</LinearLayout>

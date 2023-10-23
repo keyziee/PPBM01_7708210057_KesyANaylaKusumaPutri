@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">7708210057_KesyANaylaKusumaPutri</string>
+    <string-array name="list_makanan">
+        <item>Chocolate Dorayaki</item>
+        <item>Red Beans Dorayaki</item>
+        <item>Fish Cake</item>
+    </string-array>
+</resources>
